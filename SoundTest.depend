@@ -1,0 +1,86 @@
+# depslib dependency file v1.0
+1380696293 source:/home/montspy/Documents/SoundTest/main.cpp
+	"SineWave.h"
+	"RtAudio.h"
+	"RtError.h"
+	"FileLoop.h"
+	"Engine.h"
+	"DummySensor.h"
+	"Mixer.h"
+
+1380695540 source:/home/montspy/Documents/SoundTest/Engine.cpp
+	"Engine.h"
+
+1381700313 /home/montspy/Documents/SoundTest/Engine.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<algorithm>
+	<vector>
+	<sys/types.h>
+	<dirent.h>
+	"FileLoop.h"
+
+1381700524 source:/home/montspy/Documents/SoundTest/Mixer.cpp
+	"Mixer.h"
+
+1380268110 /home/montspy/Documents/SoundTest/Mixer.h
+	"Engine.h"
+	"RPMSensor.h"
+	<cmath>
+	"FileLoop.h"
+	"RtAudio.h"
+
+1380042876 source:/home/montspy/Documents/SoundTest/RPMSensor.cpp
+	"RPMSensor.h"
+
+1380039691 /home/montspy/Documents/SoundTest/RPMSensor.h
+	<iostream>
+
+1380035896 source:/home/montspy/Documents/SoundTest/DummySensor.cpp
+	"DummySensor.h"
+
+1380034868 /home/montspy/Documents/SoundTest/DummySensor.h
+	"RPMSensor.h"
+
+1380043096 source:/home/pi/SoundTest/DummySensor.cpp
+	"DummySensor.h"
+
+1380042068 /home/pi/SoundTest/DummySensor.h
+	"RPMSensor.h"
+
+1380046890 /home/pi/SoundTest/RPMSensor.h
+	<iostream>
+
+1380702740 source:/home/pi/SoundTest/Engine.cpp
+	"Engine.h"
+
+1381707512 /home/pi/SoundTest/Engine.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<algorithm>
+	<vector>
+	<sys/types.h>
+	<dirent.h>
+	"FileLoop.h"
+
+1380050076 source:/home/pi/SoundTest/RPMSensor.cpp
+	"RPMSensor.h"
+
+1381701745 source:/home/pi/SoundTest/main.cpp
+	"SineWave.h"
+	"RtAudio.h"
+	"RtError.h"
+	"FileLoop.h"
+	"Engine.h"
+	"DummySensor.h"
+	"Mixer.h"
+
+1380275310 /home/pi/SoundTest/Mixer.h
+	"Engine.h"
+	"RPMSensor.h"
+	<cmath>
+	"FileLoop.h"
+	"RtAudio.h"
+

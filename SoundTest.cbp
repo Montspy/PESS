@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SoundTest" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SoundTest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-I/usr/include/stk/" />
+					<Add option="-D__LITTLE_ENDIAN__" />
+					<Add option="-D__LINUX_ALSA__" />
+				</Compiler>
+				<Linker>
+					<Add option="-lasound" />
+					<Add option="-lpthread" />
+					<Add option="-lstk" />
+					<Add option="-lrtaudio" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SoundTest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-I/usr/include/stk/" />
+					<Add option="-D__LITTLE_ENDIAN__" />
+					<Add option="-D__LINUX_ALSA__" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lasound" />
+					<Add option="-lpthread" />
+					<Add option="-lstk" />
+					<Add option="-lrtaudio" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="DummySensor.cpp" />
+		<Unit filename="DummySensor.h" />
+		<Unit filename="Engine.cpp" />
+		<Unit filename="Engine.h" />
+		<Unit filename="Mixer.cpp" />
+		<Unit filename="Mixer.h" />
+		<Unit filename="RPMSensor.cpp" />
+		<Unit filename="RPMSensor.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
